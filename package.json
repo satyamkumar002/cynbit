@@ -1,0 +1,35 @@
+{
+  "name": "cynbit-blueprint",
+  "version": "1.0.0",
+  "description": "Prototype improvements for cynbit.in: AI Project Blueprint builder, Ask Cynbit assistant, BitElevate Path Finder and an admin dashboard.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "next": "^15.5.29",
+    "postgres": "^4.1.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.17",
+    "@electric-sql/pglite-socket": "^0.2.20",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
